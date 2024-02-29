@@ -1,0 +1,73 @@
+.Enlace {
+  display: flex;
+  justify-content: space-around;
+}
+
+.FondoPantalla {
+  background-color: gainsboro;
+  width: 450px;
+  margin: auto; /*Para centrar el fondo*/
+  border-radius: 20%; /*Para poner los bordes redondeados*/
+  padding: 20px;
+}
+
+.FondoPerro {
+  display: flex;
+  justify-content: space-around;
+  margin: auto;
+  margin-top: 30px;
+  border-radius: 0%;
+  padding: 20px;
+}
+
+.AlineamientoLista {
+  margin-top: 150px;
+  padding: 20px;
+  float: right;
+  width: 200px;
+}
+
+.Texto {
+  text-align: center;
+}
+
+.Imagen {
+  width: fit-content;
+  float: left;
+}
+
+.button.primary{
+  background-color: red;
+  color: white;
+}
+
+input {
+  border-radius: 10%;
+  background-color: rgb(205, 255, 243);
+}
+
+input:hover {
+  background-color: rgba(137, 43, 226, 0.089);
+}
+
+button {
+  border-radius: 20%;
+}
+
+.Ciudad {
+  background-color: lightcoral;
+  color: black;
+}
+
+.Ciudad:hover {
+  background-color: red;
+}
+
+.Perro {
+  background-color: greenyellow;
+  color: blue;
+}
+
+.Perro:hover {
+  background-color: green;
+}
